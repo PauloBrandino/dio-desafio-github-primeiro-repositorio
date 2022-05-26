@@ -1,0 +1,36 @@
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos CMD Windows
+- dir: Lista os nomes dos arquivos em cada diretório
+- cd : Trocar de diretório, serve para você entrar em uma pasta
+- cd .. : Retorna para o diretório anterior
+- cls: Limpa Tela
+- TAB: Auto completar
+- mkdir:  Criar um diretório
+- echo: Cria um arquivo
+- del: Deleta um arquivo
+- rmdir : Dele um repositório
+
+Comando CMD Linux
+
+-pwd: Encontra o caminho para o diretório atual
+- cd: Trocar de diretório, serve para você entrar em uma pasta
+- cd ..: Move para o diretório acima
+- cd-: Move para diretórios anteriores
+- ls: Lista os nomes dos arquivos em cada diretório
+- cat: Visualiza o conteúdo de um arquivo na saída padrão
+- cp: Copia arquivo de diretório
+- mv: Move um arquivo
+- mkdir: Cria um novo diretório
+- rdmir: Usado para apagar um diretório
+- echo: Este comando é usado para mover alguns dados para um arquivo
+===================================================================================
+
+SHA1: Algoritmo de encreptação
+Objetos Internos: Blobs, Trees e Commits
+
+Blob: Cada arquivo no Git é armazenado como um objeto Blob que contém metadados do Git, tamanho da String, tipo de dado e tamanho do objeto.
+Trees: Armazena todos tipos de objetos Git: reponsável por organizar os diretórios , arvores(para pastas). blob(para arquivos binários). 
+Commits: Os commits são as unidades estruturais de um cronograma de projeto Git. Podem ser considerados instantâneos ou marcos ao longo do cronograma de um projeto Git. São criados com o comando git commit para capturar o estado de um projeto naquele momento.
+
+
